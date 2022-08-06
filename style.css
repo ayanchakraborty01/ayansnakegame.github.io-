@@ -1,0 +1,36 @@
+body{
+    background-image: url("Content\background.jpg");
+    background-color: rgb(133, 0, 0);
+    background-size: contain;
+}
+
+.heading{
+    background-color: black;
+    height: auto;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid orange;
+}
+
+.heading h1{
+    font-family: "Audiowide", sans-serif;
+    font-size: 100px;
+    color:aquamarine;
+    padding: 2px 2px 2px 2px;
+}
+
+.mydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mycanvas{
+    background-color: black;
+    border: 5px solid orange;
+    margin: 50px;
+    width: 1000px;
+    height: 500px;   
+}
